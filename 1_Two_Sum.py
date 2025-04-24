@@ -6,4 +6,5 @@ class Solution:
             temp = nums[:i] + nums[i+1:]
             if key in temp:
                 return [i, temp.index(key)+1]
+            
         
